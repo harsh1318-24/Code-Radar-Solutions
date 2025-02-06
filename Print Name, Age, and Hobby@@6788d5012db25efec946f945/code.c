@@ -5,12 +5,12 @@ int main() {
     char a[100];
     char c[100];
     int b;
-    scanf("%c",&a);
+    scanf("%s",&a);
     scanf("%d",&b);
-    scanf("%c",&c);
-    printf("Name: %c\n",a);
+    scanf("%s",&c);
+    printf("Name: %s\n",a);
     printf("Age: %d\n",b);
-    printf("Hobby: %c",c);
+    printf("Hobby: %s",c);
 
     return 0;
 }
