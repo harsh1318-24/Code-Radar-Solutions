@@ -8,7 +8,7 @@ int main() {
 
     scanf("%d",&c);
     int avg;
-    avg=a+b+c/3
+    avg=(a+b+c)/3;
     printf("%d", avg);
     return 0;
 }
