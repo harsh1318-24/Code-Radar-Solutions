@@ -10,7 +10,7 @@ int main() {
 
     // Check if the number is even or odd
     if (num % 2 == 0) {
-        printf("even\n",);
+        printf("even\n");
     } else {
         printf("odd\n");
     }
