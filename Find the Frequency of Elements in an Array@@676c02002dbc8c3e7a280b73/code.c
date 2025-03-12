@@ -25,7 +25,7 @@ void findFrequency(int arr[], int n) {
 
     for (int i = 0; i < n; i++) {
         if (frequency[i] != 0) {
-            printf("%d       %d\n", arr[i], frequency[i]);
+            printf("%d %d\n", arr[i], frequency[i]);
         }
     }
 }
