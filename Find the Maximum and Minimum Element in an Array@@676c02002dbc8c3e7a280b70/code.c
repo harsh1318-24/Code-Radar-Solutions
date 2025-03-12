@@ -36,7 +36,7 @@ int main() {
 
  
     printf(" %d", min);
-    printf("")
+    printf("");
     printf("%d", max);
 
     return 0;
