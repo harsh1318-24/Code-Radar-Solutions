@@ -34,7 +34,7 @@ int main() {
     countEvenOdd(arr, n, &evenCount, &oddCount);
 
 
-    printf("%d", evenCount);
+    printf("%d ", evenCount);
     printf("%d", oddCount);
 
     return 0;
