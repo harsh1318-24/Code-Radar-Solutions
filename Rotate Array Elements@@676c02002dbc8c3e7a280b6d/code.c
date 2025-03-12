@@ -36,27 +36,23 @@ void printArray(int arr[], int n) {
 int main() {
     int n, k;
 
-    // Input the size of the array and the number of positions to rotate
-    printf("Enter the size of the array: ");
+    
     scanf("%d", &n);
 
     int arr[n];
 
-    // Input the elements of the array
-    printf("Enter the elements of the array: \n");
+    
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    // Input the number of positions to rotate
-    printf("Enter the number of positions to rotate by: ");
+    
     scanf("%d", &k);
 
-    // Call the rotate function
+  
     rotateArray(arr, n, k);
 
-    // Output the rotated array
-    printf("Array after rotation: ");
+    
     printArray(arr, n);
 
     return 0;
