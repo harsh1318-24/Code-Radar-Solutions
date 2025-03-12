@@ -30,7 +30,7 @@ int main() {
 
     if (peak != -1) {
         printf("%d", peak);
-    // } else {
+    } //else {
     //     printf("No peak element found\n");
     // }
 
