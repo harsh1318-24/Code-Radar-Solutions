@@ -35,7 +35,7 @@ int main() {
     findMaxMin(arr, n, &max, &min);
 
  
-    printf(" %d", min);
+    printf("%d", min);
     printf(" ");
     printf("%d", max);
 
