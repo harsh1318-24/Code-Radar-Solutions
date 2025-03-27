@@ -26,7 +26,7 @@ int main() {
     }
 
     if (minIndex == INT_MAX) {
-        printf("No repeating elements found.\n");
+        printf("-1");
     } else {
         printf("%d", arr[minIndex]);
     }
