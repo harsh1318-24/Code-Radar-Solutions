@@ -30,7 +30,7 @@ int main() {
     if (minIndex == INT_MAX) {
         printf("No repeating elements found.\n");
     } else {
-        printf("The first repeating element is: %d (at index %d)\n", arr[minIndex], minIndex);
+        printf("%d", arr[minIndex]);
     }
 
     return 0;
