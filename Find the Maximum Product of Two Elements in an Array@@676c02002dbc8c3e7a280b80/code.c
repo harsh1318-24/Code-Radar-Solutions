@@ -44,7 +44,7 @@ int main() {
     // Calculate maximum product
     int maxProduct = max1 * max2 > min1 * min2 ? max1 * max2 : min1 * min2;
 
-    
+    printf("%d",maxProduct);
 
     return 0;
 }
