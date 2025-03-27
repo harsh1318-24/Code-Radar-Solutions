@@ -4,15 +4,13 @@
 int main() {
     int N;
 
-    // Input the size of the array
-    printf("Enter the size of the array: ");
+    
     scanf("%d", &N);
 
     int arr[N];
     int hash[100000] = {0}; // Assuming array values are within a large range
 
-    // Input the array elements
-    printf("Enter the elements of the array: ");
+    
     for (int i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
     }
